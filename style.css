@@ -1,0 +1,304 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: small;
+	background-image: url(image/6726.jpg);
+}
+
+#website{
+	width: 1040px;
+	margin: auto;
+	background-color: #fff;
+}
+
+#top{
+	width: 1000px;
+	height: 50px;
+	margin: auto;
+	background-image: url(image/Untitled.png);
+}
+
+#left{
+	float: left;
+}
+
+#left ul{
+	padding: 10px 0px 0px 10px;
+}
+#left ul li{
+	float: left;
+	margin-right: 10px;
+}
+
+#right{
+	float: right;
+}
+#right ul {
+	padding: 10px 19px 0px 0px;
+}
+#right ul li {
+	float: left;
+	margin-left: 15px;
+	font-weight: bold;
+	color: #b74747;
+	line-height: 25px;
+}
+#right ul li a {
+	color: #b74747;
+
+}
+#right ul li a:hover {
+	color: #4c3838;
+}
+
+#header {
+	width: 1000px;
+	height: 156px;
+	margin: auto;
+}
+
+#shopcart {
+	float: right;
+	margin-top: 38px;
+	padding: 2px 90px 0px 0px;
+	position: relative;
+	background: #a5745b;
+}
+
+#infocart {
+	position: absolute;
+	z-index: 99;
+	top:9px;
+	margin-left: 55px;
+	text-align: center;
+	color: #c62c23;
+	font-weight: bold;
+}
+
+#header-phone {
+	width: 170px;
+	height: 31px;
+	float: left;
+	margin-top: 27px;
+	background: url(image/if_ic_phone_android_48px_352066.png) no-repeat;
+	padding-left: 26px;
+	line-height: 31px;
+	color: #999999;
+
+}
+
+#search-box {
+	width: 204px;
+	height: 31px;
+	float: left;
+	margin-top: 27px;
+	background: #f7f7f7;
+}
+
+#textsearch {
+	width: 160px;
+	height: 27px;
+	border: 0px;
+	background: #f7f7f7;
+}
+
+#search-button {
+	width: 34px;
+	height: 30px;
+	padding: 9px;
+	border: 0px;
+	background: url(image/if_icon-111-search_314478.png) no-repeat;
+	cursor: pointer;
+}
+
+#menu {
+	width: 997px;
+	height: 42px;
+	margin: 15px auto;
+	background: #cedcdd;
+}
+ #menu ul {
+ 	text-transform: uppercase;
+ }
+#menu ul li {
+	border-right: 1px dotted #999999;
+	float: left;
+	height: 42px
+}
+#menu ul li a {
+	padding: 0px 40px 0px 40px;
+	line-height: 42px;
+	font-weight: bold;
+	color: #333030;
+	background: #cedcdd;
+	display: inline-table;
+}
+#menu ul li a:hover {
+	color: #cc3939;
+	background: #4f4646;
+}
+#menu img {
+	float: left;
+	padding: 5px 5px 0px 5px;
+	cursor: pointer;
+}
+#QC {
+	width: 1008px;
+	margin: 20px auto;
+	height: 450px;
+}
+#QC-left {
+	width: 646px;
+	height: 410px;
+	float: left;
+}
+#QC-right {
+	width: 355px;
+	height: 404px;
+	float: left;
+	border: 1px solid #000000
+}
+#QC-right-top {
+	width: 352px;
+	height: 270px;
+	border: 1px solid;
+	text-align: center;
+	line-height: 250px;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+#QC-right-bottom {
+	width: 352px;
+	height: 130px;
+	border: 1px solid;
+	text-align: center;
+	line-height: 140px;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+#BlaBla {
+	width: 1002px;
+	height: 40px;
+	clear: both;
+	background: url(image/Untitled2.png);
+	text-align: center;
+	margin: 2px;
+	padding: 6px 0px 6px 1px;
+}
+#BlaBla a {
+	padding: 45px;
+	line-height: 42px;
+	text-transform: uppercase;
+	color: #f1f1f1;
+}
+#BlaBla a img {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#product {
+	width: 1000px;
+	height: 800px;
+	margin: 10px auto;
+}
+#product-left {
+	width: 230px;
+	height: 750px;
+	float: left;
+}
+#menu-left {
+	width: 200px;
+	border: 1px solid;
+	margin: 10px 0px 0px 14px;
+	border-radius: 6px;
+}
+#menu-left > ul {
+	padding: 10px 20px 20px 20px;
+}
+#menu-left li {
+	line-height: 26px;
+}
+#menu-left > ul > li {
+	border-bottom: 1px solid #CCCCCC;
+}
+.submenu li {
+	padding-left: 30px;
+	background: url(image/if_icon-ios7-arrow-right_211607.png) no-repeat 10px 4px;
+}
+.submenu {
+	padding-bottom: 15px;
+}
+#menu-left a {
+	color: #9aa8bf;
+}
+#menu-left a:hover {
+	color: #ba5757;
+	cursor: pointer;
+}
+#menu-left li ul {
+	display: none;
+}
+#zalo {
+	width: 230px;
+	height: 110px;
+	border-top: 1px solid #292b2d; 
+	border-bottom: 1px solid #292b2d;
+	margin-top: 40px;
+}
+#hotline {
+	float: left;
+	margin: 0px 0px 0px 6px;
+	font-size: 13px;
+	line-height: 25px;
+	color: #d84b4b;
+}
+#product-right {
+	width: 765px;
+	height: 750px;
+	float: left;
+	margin-left: 4px;
+	border-left: 1px dotted;
+}
+#product-right ul li {
+	width: 230px;
+	height: 340px;
+	float: left;
+	margin-right: 25px;
+}
+.content {
+	width: 210px;
+	height: 280px;
+	margin: 9px 10px 9px 10px;
+	cursor: pointer;
+}
+.SPS {
+	text-align: center;
+	text-transform: uppercase;
+	color: #cc4141;
+	margin-top: 4px;
+	line-height: 20px
+}
+.SPS2 {
+	text-align: center;
+	color: #a59f9f;
+}
+#product-right ul li:hover {
+	background: #b8ffb2;
+	box-shadow: 0 0 5px #5f6f8e;
+}
+
+
+
